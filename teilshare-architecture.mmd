@@ -1,0 +1,6 @@
+flowchart TD
+    T["TeilShare"] --> UI["UI<br/>Astro.js<br/>React.js<br/>TypeScript<br/>CSS"]
+    UI --> AUTH["Authentication<br/>Supabase Auth"]
+    AUTH --> APP["Application<br/>TypeScript<br/>Node.js"]
+    APP --> DB["Database<br/>Supabase SQL"]
+    APP --> STORAGE["Storage<br/>AWS S3"]
